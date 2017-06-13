@@ -18,7 +18,7 @@ public class SpringDataSolrDemo {
 		bookRepo.save(wish);
 
 		System.out.println(bookRepo.findOne(5l)); /* Searching by Id */
-		System.out.println(bookRepo.findByBookTitle("Souro")); /* Searching by Title */ 
+		System.out.println(bookRepo.findByBookTitle("Souro"));
 
 		context.close();
 	}
